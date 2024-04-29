@@ -145,7 +145,6 @@ img {
 @media (min-width: 50rem) {
   .card {
     width: 24rem;
-    box-shadow: 1rem 1rem 0 0 var(--clr-black);
   }
   .card__img {
     box-shadow: none;
