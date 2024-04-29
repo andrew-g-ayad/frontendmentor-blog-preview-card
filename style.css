@@ -146,6 +146,13 @@ img {
   .card {
     width: 24rem;
   }
+  .card:hover .card__title {
+    color: var(--clr-primary);
+  }
+  .card:hover {
+    cursor: pointer;
+    box-shadow: 1rem 1rem 0 0 var(--clr-black);
+  }
   .card__img {
     box-shadow: none;
   }
@@ -157,10 +164,6 @@ img {
   }
   .card__title {
     font-size: var(--fs-400);
-  }
-  .card__title:hover {
-    color: var(--clr-primary);
-    cursor: pointer;
   }
   .card__content {
     font-size: var(--fs-200);
